@@ -1,5 +1,5 @@
 const url = "https://fakestoreapi.com/products";
-const productContainer = document.getElementById("productHome");
+const productContainer = document.getElementById("product-Home");
 
 fetch(url)
   .then((res) => res.json())

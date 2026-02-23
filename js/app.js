@@ -33,7 +33,7 @@ const manageSpiner = (status) => {
 
 }
 const url = "https://fakestoreapi.com/products";
-const productContainer = document.getElementById("productHome");
+const productContainer = document.getElementById("product-Home");
 
 fetch(url)
   .then((res) => res.json())
@@ -83,7 +83,7 @@ fetch(url)
 // homepage end 
 const displayDetails = (details) => {
     console.log("Details",details);
-    const detailsBox = document.getElementById("details-container");
+    const detailsBox = document.getElementById("details-model-box");
     detailsBox.innerHTML =`<div class="grid md:grid-cols-2 grid-cols-1 gap-6 items-center">
 
   <!-- Product Image -->
